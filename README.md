@@ -14,11 +14,6 @@ Our process included:
 - Performing predictive modeling by comparing XGBoost and LightGBM
 - Bayesian Optimization was used for parameters
 
-Hypothesis Testing:
-- Ho: Pre-snap running back depth is not predictive of whether a play is a run or pass play
-- Ha: Running back depth indicates whether a play will be a pass or run.
-- The significance level tested was alpha = 0.05
-
 Findings:
 - We could predict if a play was a run play within 78.6% accuracy
 - We found the LightGBM model to be the best, with a ROC-AUC of 85.6%
