@@ -1,10 +1,10 @@
-- Updated 12/8/2024
+- Updated 1/6/2024
 
 ## Big Data Bowl 2025: Insights from Pre-Snap Data
 
 This repository contains Python notebooks developed while exploring, preparing, preprocessing, and modeling the numerous datasets the Big Data Bowl (BDB) sponsors provided on the Kaggle platform. The nine weekly tracking datasets contain massive amounts of records that could not quickly be loaded and used in Kaggle. 
 
-Our process included:
+The process included:
 - Exploring the data and looking for trends
 - Preparing the data and preprocessing for aggregation
 - Feature Engineering
@@ -15,9 +15,9 @@ Our process included:
 - Bayesian Optimization was used for parameters
 
 Findings:
-- We could predict if a play was a run play within 78.6% accuracy
-- We found the LightGBM model to be the best, with a ROC-AUC of 85.6%
-- Our testing classification report was promising, with above-average scores for precision, recall, and f1-score
-- Using XGBoost Feature Importance, we found the most predictive features revolved around offensive formations, wide receiver alignment, tight end shifting, wide receiver motion, and running back depth.
+- A prediction could be made if a play was a run play within 79.1% accuracy
+- The LightGBM model performed best, with a ROC-AUC of 85.6%
+- The testing classification report was promising, with above-average scores for precision, recall, and f1-score
+- Using XGBoost Feature Importance, the most predictive features revolved around offensive formations, wide receiver alignment, tight end shifting, wide receiver motion, and most importantly running back depth.
 
 
