@@ -20,4 +20,7 @@ Findings:
 - The testing classification report was promising, with above-average scores for precision, recall, and f1-score
 - Using XGBoost Feature Importance, the most predictive features revolved around offensive formations, wide receiver alignment, tight end shifting, wide receiver motion, and most importantly running back depth.
 
+- ### [Code](Code)
+- ### [Data](Datasets)
+
 
